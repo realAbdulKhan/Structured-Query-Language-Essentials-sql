@@ -1,7 +1,5 @@
 ﻿
-
 # Structured Query Language (SQL) - Project
-
 
 ***This assignment is worth 100% of your overall mark***
 
@@ -14,7 +12,8 @@
 **Guidelines:**
 
 *You are responsible for implementing the database for a student app that allows students to view their time table, view assingments due and take part in a forum.  The following contains the schema for the database.*
-## **Relational Schema:**
+
+## Relational Schema
 
 **COURSE**(course\_id, course\_name)
 
@@ -40,7 +39,6 @@
 
 *Save the file as a script file, i.e. with a .SQL extension that can be run.  There should be no text in the file that is not code or comments.*
 **
-
 
 **Section A – Creating the tables**:
 
@@ -127,34 +125,34 @@ Insert the following data into the Course table:
 
 Insert the following records into the Module table:
 
-| module_id | module_name|
-|---|---|
-| CSC102 | Computer System Concepts|
-| ECOMP | Electronics for Computing|
-| IPD104 | Interpersonal Development|
-| MM102 | Mathematical Methods|
-| MMT | Mathematics for Computing|
-| Net1 | Introduction to Computer Networks|
-| OOP102 | Introduction to Object Oriented Programming|
-| OS1 | Operating Systems Fundamentals|
-| OSM2 | Operating Systems Management|
-| PDC101 | Programme Design Concepts|
-| Prog 101 | Introduction to Programming|
-| WDF | Web Development Fundamentals|
+| module_id | module_name                                 |
+|-----------|---------------------------------------------|
+| CSC102    | Computer System Concepts                    |
+| ECOMP     | Electronics for Computing                   |
+| IPD104    | Interpersonal Development                   |
+| MM102     | Mathematical Methods                        |
+| MMT       | Mathematics for Computing                   |
+| Net1      | Introduction to Computer Networks           |
+| OOP102    | Introduction to Object Oriented Programming |
+| OS1       | Operating Systems Fundamentals              |
+| OSM2      | Operating Systems Management                |
+| PDC101    | Programme Design Concepts                   |
+| Prog 101  | Introduction to Programming                 |
+| WDF       | Web Development Fundamentals                |
 
 ### Question 3
 
-. Add in your own data to the *course\_module* table and the *timetable* table (3 records).
+Add in your own data to the *course\_module* table and the *timetable* table (3 records).
 
 ### Question 4
 
 Insert the following data into the assignment table.
 
-| Assignment ID | Title                   | Due Date   | Time Due  | Percent Wt | Hand Up Method     | Module ID |
-|---------------|-------------------------|------------|-----------|------------|---------------------|-----------|
-| 1             | Programming a Calculator | 2018-10-04 | 12:00:00  | 30         | Upload to Moodle    | Prog101   |
-| 2             | Build a Computer        | 2018-09-27 | 12:00:00  | 30         | Upload to Moodle    | CSC102    |
-| 3             | Mathematics Research      | 2018-11-26 | 12:00:00  | 20         | Upload to Moodle    | MMT       |
+| Assignment ID | Title                    | Due Date   | Time Due | Percent Wt | Hand Up Method   | Module ID |
+|---------------|--------------------------|------------|----------|------------|------------------|-----------|
+| 1             | Programming a Calculator | 2018-10-04 | 12:00:00 | 30         | Upload to Moodle | Prog101   |
+| 2             | Build a Computer         | 2018-09-27 | 12:00:00 | 30         | Upload to Moodle | CSC102    |
+| 3             | Mathematics Research     | 2018-11-26 | 12:00:00 | 20         | Upload to Moodle | MMT       |
 
 ### Question X
 

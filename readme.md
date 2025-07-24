@@ -1,8 +1,7 @@
 ﻿
+# Structured Query Language Project
 
-**Structured Query Language**
-
-**Repeat Project**
+[Click for my solution](answers.md)
 
 ***This assignment is worth 100% of your overall mark***
 
@@ -100,20 +99,20 @@ Insert the following data into the Course table:
 
 Insert the following records into the Module table:
 
-| module_id | module_name|
-|---|---|
-| CSC102 | Computer System Concepts|
-| ECOMP | Electronics for Computing|
-| IPD104 | Interpersonal Development|
-| MM102 | Mathematical Methods|
-| MMT | Mathematics for Computing|
-| Net1 | Introduction to Computer Networks|
-| OOP102 | Introduction to Object Oriented Programming|
-| OS1 | Operating Systems Fundamentals|
-| OSM2 | Operating Systems Management|
-| PDC101 | Programme Design Concepts|
-| Prog 101 | Introduction to Programming|
-| WDF | Web Development Fundamentals|
+| module_id | module_name                                 |
+|-----------|---------------------------------------------|
+| CSC102    | Computer System Concepts                    |
+| ECOMP     | Electronics for Computing                   |
+| IPD104    | Interpersonal Development                   |
+| MM102     | Mathematical Methods                        |
+| MMT       | Mathematics for Computing                   |
+| Net1      | Introduction to Computer Networks           |
+| OOP102    | Introduction to Object Oriented Programming |
+| OS1       | Operating Systems Fundamentals              |
+| OSM2      | Operating Systems Management                |
+| PDC101    | Programme Design Concepts                   |
+| Prog 101  | Introduction to Programming                 |
+| WDF       | Web Development Fundamentals                |
 
 ### Question 3
 
@@ -123,11 +122,11 @@ Insert the following records into the Module table:
 
 Insert the following data into the assignment table.
 
-| Assignment ID | Title                   | Due Date   | Time Due  | Percent Wt | Hand Up Method     | Module ID |
-|---------------|-------------------------|------------|-----------|------------|---------------------|-----------|
-| 1             | Programming a Calculator | 2018-10-04 | 12:00:00  | 30         | Upload to Moodle    | Prog101   |
-| 2             | Build a Computer        | 2018-09-27 | 12:00:00  | 30         | Upload to Moodle    | CSC102    |
-| 3             | Mathematics Research      | 2018-11-26 | 12:00:00  | 20         | Upload to Moodle    | MMT       |
+| Assignment ID | Title                    | Due Date   | Time Due | Percent Wt | Hand Up Method   | Module ID |
+|---------------|--------------------------|------------|----------|------------|------------------|-----------|
+| 1             | Programming a Calculator | 2018-10-04 | 12:00:00 | 30         | Upload to Moodle | Prog101   |
+| 2             | Build a Computer         | 2018-09-27 | 12:00:00 | 30         | Upload to Moodle | CSC102    |
+| 3             | Mathematics Research     | 2018-11-26 | 12:00:00 | 20         | Upload to Moodle | MMT       |
 
 ### Question X
 
