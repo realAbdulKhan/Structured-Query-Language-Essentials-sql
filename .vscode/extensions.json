@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "inferrinizzard.prettier-sql-vscode",
+        "oracle.mysql-shell-for-vs-code",
+        "formulahendry.vscode-mysql"
+    ]
+}
