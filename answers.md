@@ -157,20 +157,28 @@ Insert the following data into the assignment table.
 | 2             | Build a Computer         | 2018-09-27 | 12:00:00 | 30         | Upload to Moodle | CSC102    |
 | 3             | Mathematics Research     | 2018-11-26 | 12:00:00 | 20         | Upload to Moodle | MMT       |
 
-### Question X
+### Question 5
 
-1. Enter two users into the user’s table (make this up yourself).
-2. Create two questions in the forum tables.
-3. Provide one reply to one of your questions.
+Enter two users into the user’s table (make this up yourself).
 
-**Section C – View and Queries**
+### Question 6
+
+Create two questions in the forum tables.
+
+### Question 7
+
+Provide one reply to one of your questions.
+
+## Section C – View and Queries
 
 Write SQL commands for the following
 
+### Question 1
+
 1. Create a View that shows the timetable for Group 1B for semester 1, order by Day, time ascend.  Also show the code to view the data within this View
-1. Create a view that shows all free classes for Group 1A for semester 1.
-1. Create a view that shows all assignment due (i.e. title, module Name, due date).   Must not show assignment where due date has passed.
-1. Create a view that shows the number of day left before the due date for each assignment (title, module name, hand up method, number of day left).  
+2. Create a view that shows all free classes for Group 1A for semester 1.
+3. Create a view that shows all assignment due (i.e. title, module Name, due date).   Must not show assignment where due date has passed.
+4. Create a view that shows the number of day left before the due date for each assignment (title, module name, hand up method, number of day left).  
 
 
 1
