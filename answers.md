@@ -118,7 +118,10 @@ Insert the following data into the Course table:
 ### Answer B.1
 
 ```sql
-
+INSERT INTO `Course` (`Course_Id`, `Course_Name`) VALUES ('CSM103', 'Computer Service Management');
+INSERT INTO `Course` (`Course_Id`, `Course_Name`) VALUES ('CP102', 'Computing');
+INSERT INTO `Course` (`Course_Id`, `Course_Name`) VALUES ('GD100', 'Games Design');
+INSERT INTO `Course` (`Course_Id`, `Course_Name`) VALUES ('SD101', 'Software Development');
 ```
 
 ### Question B.2
