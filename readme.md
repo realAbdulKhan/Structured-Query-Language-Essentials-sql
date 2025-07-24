@@ -77,28 +77,63 @@
   - reply\_id should be an auto increment number.
 
 
+## Section B – Inserting records (data) into the tables:**
 
+### Question B.1
 
+Insert the following data into the Course table:
 
+| course_id | course_name                 |
+|-----------|-----------------------------|
+| CSM103    | Computer Service Management |
+| CP102     | Computing                   |
+| GD100     | Games Design                |
+| SD101     | Software Development        |
 
-**Section B – Inserting records (data) into the tables:**
+### Answer B.1
 
-1. Insert the following data into the Course table:
+```sql
 
-![](Aspose.Words.08610719-d1f1-4eaf-89dc-0f79e7e814c8.001.png)
+```
 
-1. Insert the following records into the Module table:
+### Question B.2
 
-![](Aspose.Words.08610719-d1f1-4eaf-89dc-0f79e7e814c8.002.png)
+Insert the following records into the Module table:
 
-1. Add in your own data to the *course\_module* table and the *timetable* table (3 records).
-1. Insert the following data into the assignment table.
+| module_id | module_name|
+|---|---|
+| CSC102 | Computer System Concepts|
+| ECOMP | Electronics for Computing|
+| IPD104 | Interpersonal Development|
+| MM102 | Mathematical Methods|
+| MMT | Mathematics for Computing|
+| Net1 | Introduction to Computer Networks|
+| OOP102 | Introduction to Object Oriented Programming|
+| OS1 | Operating Systems Fundamentals|
+| OSM2 | Operating Systems Management|
+| PDC101 | Programme Design Concepts|
+| Prog 101 | Introduction to Programming|
+| WDF | Web Development Fundamentals|
 
-   ![](Aspose.Words.08610719-d1f1-4eaf-89dc-0f79e7e814c8.003.png)
+### Question 3
+
+. Add in your own data to the *course\_module* table and the *timetable* table (3 records).
+
+### Question 4
+
+Insert the following data into the assignment table.
+
+| Assignment ID | Title                   | Due Date   | Time Due  | Percent Wt | Hand Up Method     | Module ID |
+|---------------|-------------------------|------------|-----------|------------|---------------------|-----------|
+| 1             | Programming a Calculator | 2018-10-04 | 12:00:00  | 30         | Upload to Moodle    | Prog101   |
+| 2             | Build a Computer        | 2018-09-27 | 12:00:00  | 30         | Upload to Moodle    | CSC102    |
+| 3             | Mathematics Research      | 2018-11-26 | 12:00:00  | 20         | Upload to Moodle    | MMT       |
+
+### Question X
 
 1. Enter two users into the user’s table (make this up yourself).
-1. Create two questions in the forum tables.
-1. Provide one reply to one of your questions.
+2. Create two questions in the forum tables.
+3. Provide one reply to one of your questions.
 
 **Section C – View and Queries**
 
