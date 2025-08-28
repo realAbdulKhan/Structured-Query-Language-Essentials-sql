@@ -15,23 +15,23 @@
 
 ## Relational Schema
 
-**COURSE**(course\_id, course\_name)
+**COURSE**(course_id, course_name)
 
-**MODULE** (module\_id  module\_name, course\_id\*)
+**MODULE** (module_id  module_name, course_id\*)
 
-**COURSE\_MODULE**(course\_ID\*, module\_ID\*)
+**COURSE_MODULE**(course_ID\*, module_ID\*)
 
-**USER**(user\_id, user\_name, email, date\_created,  phone, course\_id \*)
+**USER**(user_id, user_name, email, date_created,  phone, course_id \*)
 
-**GRADE**(module\_id\* , student\_id\*, grade)
+**GRADE**(module_id\* , student_id\*, grade)
 
-**TIMETABLE** (module\_id\*, semester, day, time, room , class\_group)
+**TIMETABLE** (module_id\*, semester, day, time, room , class_group)
 
-**ASSIGNMENT**(assignment\_id, title, due\_date, perentage\_wt, hand\_up\_method, module\_id\*)
+**ASSIGNMENT**(assignment_id, title, due_date, percentage_wt, hand_up_method, module_id\*)
 
-**FORUM**(question\_id, question\_title, question\_content, date\_time, user\_id)
+**FORUM**(question_id, question_title, question_content, date_time, user_id)
 
-**REPLY**( reply\_id, question\_id\*, reply\_content, date\_time, user\_id\*)
+**REPLY**( reply_id, question_id\*, reply_content, date_time, user_id\*)
 
 *Note: underline attributes make up the primary key for that relation,  \* indicates the attribute is a foreign key.*
 
@@ -42,7 +42,9 @@
 
 **Section A – Creating the tables**:
 
-## Question A.1
+## Section A
+
+### Question A.1
 
 Write the MySQL commands to create the tables from the relational schema above.  
 
@@ -53,29 +55,29 @@ Write the MySQL commands to create the tables from the relational schema above.
 - All primary and foreign key to be created be at table level, and should be named.
 
 - COURSE:
-  - course\_id should be of type varchar(20)
-  - course\_name cannot be NULL and must be unique
+  - course_id should be of type varchar(20)
+  - course_name cannot be NULL and must be unique
 - MODULE:
-  - module\_id should be varchar(255)
-  - module\_name cannot be null
+  - module_id should be varchar(255)
+  - module_name cannot be null
 - USER:
-  - user\_id is an auto\_increment type
+  - user_id is an auto_increment type
   - gender can only be M or F value
   - All fields cannot contain a null value
-  - Default value for *county* must ‘Tipperary’
+  - Default value for *county* must `Tipperary`
 - GRADE
   - Grade is a numeric value
 - TIMETABLE
   - Day can only be one of the following values (Mon, Tues, Wed, Thurs, Fri).
   - Semester can only be one of the following values(1, 2, 3, 4, 5, 6, 7, 8)
 - ASSIGNMENT
-  - assignment\_id should be an auto increment number.
+  - assignment_id should be an auto increment number.
 - FORUM
-  - question\_id should be an auto increment number.
+  - question_id should be an auto increment number.
 - REPLY
-  - reply\_id should be an auto increment number.
+  - reply_id should be an auto increment number.
 
-## Answer A.1
+### Answer A.1
 
 ```sql
 CREATE TABLE IF NOT EXISTS `Student_db`.`Course` (
@@ -149,7 +151,7 @@ Insert the following records into the Module table:
 
 ### Question B.3
 
-Add in your own data to the *course\_module* table and the *timetable* table (3 records).
+Add in your own data to the *course_module* table and the *timetable* table (3 records).
 
 ### Answer B.3
 
