@@ -42,7 +42,9 @@
 
 **Section A – Creating the tables**:
 
-1. Write the MySQL commands to create the tables from the relational schema above.  
+## Question A.1
+
+Write the MySQL commands to create the tables from the relational schema above.  
 
    *Take the following into consideration when creating the relations*:
 
@@ -73,7 +75,7 @@
 - REPLY
   - reply\_id should be an auto increment number.
 
-## Answer 1
+## Answer A.1
 
 ```sql
 CREATE TABLE IF NOT EXISTS `Student_db`.`Course` (
@@ -143,11 +145,15 @@ Insert the following records into the Module table:
 | Prog 101  | Introduction to Programming                 |
 | WDF       | Web Development Fundamentals                |
 
-### Question 3
+### Answer B.2
+
+### Question B.3
 
 Add in your own data to the *course\_module* table and the *timetable* table (3 records).
 
-### Question 4
+### Answer B.3
+
+### Question B.4
 
 Insert the following data into the assignment table.
 
@@ -157,29 +163,52 @@ Insert the following data into the assignment table.
 | 2             | Build a Computer         | 2018-09-27 | 12:00:00 | 30         | Upload to Moodle | CSC102    |
 | 3             | Mathematics Research     | 2018-11-26 | 12:00:00 | 20         | Upload to Moodle | MMT       |
 
-### Question 5
+### Answer B.4
+
+### Question B.5
 
 Enter two users into the user’s table (make this up yourself).
 
-### Question 6
+### Answer B.5
+
+### Question B.6
 
 Create two questions in the forum tables.
 
-### Question 7
+### Answer B.6
+
+### Question B.7
 
 Provide one reply to one of your questions.
+
+### Answer B.7
 
 ## Section C – View and Queries
 
 Write SQL commands for the following
 
-### Question 1
+### Question C.1
 
-1. Create a View that shows the timetable for Group 1B for semester 1, order by Day, time ascend.  Also show the code to view the data within this View
-2. Create a view that shows all free classes for Group 1A for semester 1.
-3. Create a view that shows all assignment due (i.e. title, module Name, due date).   Must not show assignment where due date has passed.
-4. Create a view that shows the number of day left before the due date for each assignment (title, module name, hand up method, number of day left).  
+Create a View that shows the timetable for Group 1B for semester 1, order by Day, time ascend.  Also show the code to view the data within this View
 
+### Answer C.1
 
-1
+### Question C.2
 
+Create a view that shows all free classes for Group 1A for semester 1.
+
+### Answer C.2
+
+### Question C.3
+
+Create a view that shows all assignment due (i.e. title, module Name, due date).   Must not show assignment where due date has passed.
+
+### Answer C.3
+
+### Question C.4
+
+Create a view that shows the number of day left before the due date for each assignment (title, module name, hand up method, number of day left).  
+
+### Answer C.4
+
+---
