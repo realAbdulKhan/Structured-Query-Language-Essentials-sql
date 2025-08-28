@@ -11,27 +11,33 @@
 
 **Guidelines:**
 
-*You are responsible for implementing the database for a student app that allows students to view their time table, view assingments due and take part in a forum.  The following contains the schema for the database.*
+*You are responsible for implementing the database for a student app that allows students to view their time table, view assignments due and take part in a forum.  The following contains the schema for the database.*
 
 ## Relational Schema
 
-**COURSE**(course_id, course_name)
-
-**MODULE** (module_id  module_name, course_id\*)
-
-**COURSE_MODULE**(course_ID\*, module_ID\*)
-
-**USER**(user_id, user_name, email, date_created,  phone, course_id \*)
-
-**GRADE**(module_id\* , student_id\*, grade)
-
-**TIMETABLE** (module_id\*, semester, day, time, room , class_group)
-
-**ASSIGNMENT**(assignment_id, title, due_date, percentage_wt, hand_up_method, module_id\*)
-
-**FORUM**(question_id, question_title, question_content, date_time, user_id)
-
-**REPLY**( reply_id, question_id\*, reply_content, date_time, user_id\*)
+- [ ] `Course` (course_id, course_name)
+  - course_id should be of type varchar(20)
+  - course_name cannot be NULL and must be unique
+- [ ] `Module` (module_id, module_name, course_id\*)
+  - module_id should be varchar(255)
+  - module_name cannot be NULL
+- [ ] `Course_Module` (course_id\*, module_id\*)
+- [ ] `User` (user_id, user_name, email, date_created, phone, gender, county, course_id\*)
+  - user_id is an auto_increment type
+  - gender can only be M or F value
+  - all fields cannot contain a NULL value
+  - default value for county must be `Tipperary`
+- [ ] `Grade` (module_id\*, student_id\*, grade_mark)
+  - grade_mark is a numeric value
+- [ ] `Timetable` (module_id\*, semester, day, time, room, class_group)
+  - day can only be one of the following values: (Mon, Tues, Wed, Thurs, Fri)
+  - semester can only be one of the following values: (1, 2, 3, 4, 5, 6, 7, 8)
+- [ ] `Assignment` (assignment_id, title, due_date, percentage_wt, hand_up_method, module_id\*)
+  - assignment_id should be an auto_increment number
+- [ ] `Forum` (question_id, question_title, question_content, date_time, user_id)
+  - question_id should be an auto_increment number
+- [ ] `Reply` (reply_id, question_id\*, reply_content, date_time, user_id\*)
+  - reply_id should be an auto_increment number
 
 *Note: underline attributes make up the primary key for that relation,  \* indicates the attribute is a foreign key.*
 
@@ -53,29 +59,6 @@ Write the MySQL commands to create the tables from the relational schema above.
 - Decide on the **most appropriate data types** for each attribute
 - Create correct constraints for primary (underlined) and foreign keys (\*).
 - All primary and foreign key to be created be at table level, and should be named.
-
-- COURSE:
-  - course_id should be of type varchar(20)
-  - course_name cannot be NULL and must be unique
-- MODULE:
-  - module_id should be varchar(255)
-  - module_name cannot be null
-- USER:
-  - user_id is an auto_increment type
-  - gender can only be M or F value
-  - All fields cannot contain a null value
-  - Default value for *county* must `Tipperary`
-- GRADE
-  - Grade is a numeric value
-- TIMETABLE
-  - Day can only be one of the following values (Mon, Tues, Wed, Thurs, Fri).
-  - Semester can only be one of the following values(1, 2, 3, 4, 5, 6, 7, 8)
-- ASSIGNMENT
-  - assignment_id should be an auto increment number.
-- FORUM
-  - question_id should be an auto increment number.
-- REPLY
-  - reply_id should be an auto increment number.
 
 ### Answer A.1
 
